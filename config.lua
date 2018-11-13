@@ -2,9 +2,9 @@
 return {
 
     -- Your authorization token from the botfather. (string, put quotes)
-    bot_api_key = os.getenv('OTOUTO_BOT_API_KEY'),
+    bot_api_key = os.getenv('620631715:AAEmn2gkUowokvnFuLqoBvLnb-UXxulSjKM'),
     -- Your Telegram ID (number).
-    admin = os.getenv('ADMIN_ID'),
+    admin = os.getenv('528272188'),
     -- Two-letter language code.
     -- Fetches it from the system if available, or defaults to English.
     lang = os.getenv('LANG') and os.getenv('LANG'):sub(1,2) or 'en',
